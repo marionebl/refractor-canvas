@@ -1,0 +1,127 @@
+{
+  "tokens": {
+    "comment": {
+      "color": "#8e8e8e"
+    },
+    "block-comment": {
+      "color": "#8e8e8e"
+    },
+    "prolog": {
+      "color": "#8e8e8e"
+    },
+    "doctype": {
+      "color": "#8e8e8e"
+    },
+    "cdata": {
+      "color": "#8e8e8e"
+    },
+    "punctuation": {
+      "color": "#ccc"
+    },
+    "tag": {
+      "color": "#e2777a"
+    },
+    "attr-name": {
+      "color": "#e2777a"
+    },
+    "namespace": {
+      "color": "#e2777a"
+    },
+    "number": {
+      "color": "#e2777a"
+    },
+    "unit": {
+      "color": "#e2777a"
+    },
+    "hexcode": {
+      "color": "#e2777a"
+    },
+    "deleted": {
+      "color": "#e2777a"
+    },
+    "property": {
+      "color": "#72f1b8",
+      "textShadow": "0 0 2px #100c0f, 0 0 10px #257c5575, 0 0 35px #21272475"
+    },
+    "selector": {
+      "color": "#f4eee4",
+      "textShadow": "0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575"
+    },
+    "function-name": {
+      "color": "#6196cc"
+    },
+    "boolean": {
+      "color": "#fdfdfd",
+      "textShadow": "0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975"
+    },
+    "function": {
+      "color": "#fdfdfd",
+      "textShadow": "0 0 2px #001716, 0 0 3px #03edf975, 0 0 5px #03edf975, 0 0 8px #03edf975"
+    },
+    "class-name": {
+      "color": "#fff5f6",
+      "textShadow": "0 0 2px #000, 0 0 10px #fc1f2c75, 0 0 5px #fc1f2c75, 0 0 25px #fc1f2c75"
+    },
+    "constant": {
+      "color": "#f92aad",
+      "textShadow": "0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3"
+    },
+    "symbol": {
+      "color": "#f92aad",
+      "textShadow": "0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3"
+    },
+    "important": {
+      "fontWeight": "bold"
+    },
+    "atrule": {
+      "color": "#f4eee4",
+      "textShadow": "0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575"
+    },
+    "keyword": {
+      "color": "#f4eee4",
+      "textShadow": "0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575"
+    },
+    "builtin": {
+      "color": "#f4eee4",
+      "textShadow": "0 0 2px #393a33, 0 0 8px #f39f0575, 0 0 2px #f39f0575"
+    },
+    "string": {
+      "color": "#f87c32"
+    },
+    "char": {
+      "color": "#f87c32"
+    },
+    "attr-value": {
+      "color": "#f87c32"
+    },
+    "regex": {
+      "color": "#f87c32"
+    },
+    "variable": {
+      "color": "#f87c32"
+    },
+    "operator": {
+      "color": "#67cdcc"
+    },
+    "entity": {},
+    "url": {
+      "color": "#67cdcc"
+    },
+    "bold": {
+      "fontWeight": "bold"
+    },
+    "italic": {
+      "fontStyle": "italic"
+    },
+    "inserted": {
+      "color": "green"
+    }
+  },
+  "overrides": {},
+  "text": {
+    "color": "#f92aad",
+    "textShadow": "0 0 2px #100c0f, 0 0 5px #dc078e33, 0 0 10px #fff3",
+    "background": "none",
+    "fontFamily": "Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace"
+  }
+}

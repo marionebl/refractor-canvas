@@ -1,0 +1,127 @@
+{
+  "tokens": {
+    "comment": {
+      "color": "#4a5f78"
+    },
+    "prolog": {
+      "color": "#4a5f78"
+    },
+    "doctype": {
+      "color": "#4a5f78"
+    },
+    "cdata": {
+      "color": "#4a5f78"
+    },
+    "punctuation": {
+      "color": "#4a5f78"
+    },
+    "namespace": {
+      "opacity": ".7"
+    },
+    "tag": {
+      "color": "#0aa370"
+    },
+    "operator": {
+      "color": "#0aa370"
+    },
+    "number": {
+      "color": "#0aa370"
+    },
+    "property": {
+      "color": "#57718e"
+    },
+    "function": {
+      "color": "#57718e"
+    },
+    "tag-id": {
+      "color": "#ebf4ff"
+    },
+    "selector": {
+      "color": "#ebf4ff"
+    },
+    "atrule-id": {
+      "color": "#ebf4ff"
+    },
+    "attr-name": {
+      "color": "#7eb6f6"
+    },
+    "boolean": {
+      "color": "#47ebb4"
+    },
+    "string": {
+      "color": "#47ebb4"
+    },
+    "entity": {},
+    "url": {
+      "color": "#47ebb4"
+    },
+    "attr-value": {
+      "color": "#47ebb4"
+    },
+    "keyword": {
+      "color": "#47ebb4"
+    },
+    "control": {
+      "color": "#47ebb4"
+    },
+    "directive": {
+      "color": "#47ebb4"
+    },
+    "unit": {
+      "color": "#47ebb4"
+    },
+    "statement": {
+      "color": "#47ebb4"
+    },
+    "regex": {
+      "color": "#47ebb4"
+    },
+    "atrule": {
+      "color": "#47ebb4"
+    },
+    "placeholder": {
+      "color": "#47ebb4"
+    },
+    "variable": {
+      "color": "#47ebb4"
+    },
+    "deleted": {
+      "textDecoration": "line-through"
+    },
+    "inserted": {
+      "borderBottom": "1px dotted #ebf4ff",
+      "textDecoration": "none"
+    },
+    "italic": {
+      "fontStyle": "italic"
+    },
+    "important": {
+      "color": "#7eb6f6"
+    },
+    "bold": {
+      "fontWeight": "bold"
+    }
+  },
+  "overrides": {
+    "string": {
+      "overrides": [
+        {
+          "type": "language",
+          "value": "scss"
+        },
+        {
+          "type": "token",
+          "value": "string"
+        }
+      ],
+      "style": {
+        "color": "#47ebb4"
+      }
+    }
+  },
+  "text": {
+    "fontFamily": "Consolas, Menlo, Monaco, \"Andale Mono WT\", \"Andale Mono\", \"Lucida Console\", \"Lucida Sans Typewriter\", \"DejaVu Sans Mono\", \"Bitstream Vera Sans Mono\", \"Liberation Mono\", \"Nimbus Mono L\", \"Courier New\", Courier, monospace",
+    "background": "#1d262f",
+    "color": "#57718e"
+  }
+}

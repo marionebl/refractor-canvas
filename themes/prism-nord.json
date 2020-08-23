@@ -1,0 +1,117 @@
+{
+  "tokens": {
+    "comment": {
+      "color": "#636f88"
+    },
+    "prolog": {
+      "color": "#636f88"
+    },
+    "doctype": {
+      "color": "#636f88"
+    },
+    "cdata": {
+      "color": "#636f88"
+    },
+    "punctuation": {
+      "color": "#81A1C1"
+    },
+    "property": {
+      "color": "#81A1C1"
+    },
+    "tag": {
+      "color": "#81A1C1"
+    },
+    "constant": {
+      "color": "#81A1C1"
+    },
+    "symbol": {
+      "color": "#81A1C1"
+    },
+    "deleted": {
+      "color": "#81A1C1"
+    },
+    "number": {
+      "color": "#B48EAD"
+    },
+    "boolean": {
+      "color": "#81A1C1"
+    },
+    "selector": {
+      "color": "#A3BE8C"
+    },
+    "attr-name": {
+      "color": "#A3BE8C"
+    },
+    "string": {
+      "color": "#A3BE8C"
+    },
+    "char": {
+      "color": "#A3BE8C"
+    },
+    "builtin": {
+      "color": "#A3BE8C"
+    },
+    "inserted": {
+      "color": "#A3BE8C"
+    },
+    "operator": {
+      "color": "#81A1C1"
+    },
+    "entity": {},
+    "url": {
+      "color": "#81A1C1"
+    },
+    "variable": {
+      "color": "#81A1C1"
+    },
+    "atrule": {
+      "color": "#88C0D0"
+    },
+    "attr-value": {
+      "color": "#88C0D0"
+    },
+    "function": {
+      "color": "#88C0D0"
+    },
+    "class-name": {
+      "color": "#88C0D0"
+    },
+    "keyword": {
+      "color": "#81A1C1"
+    },
+    "regex": {
+      "color": "#EBCB8B"
+    },
+    "important": {
+      "fontWeight": "bold"
+    },
+    "bold": {
+      "fontWeight": "bold"
+    },
+    "italic": {
+      "fontStyle": "italic"
+    }
+  },
+  "overrides": {
+    "string": {
+      "overrides": [
+        {
+          "type": "language",
+          "value": "css"
+        },
+        {
+          "type": "token",
+          "value": "string"
+        }
+      ],
+      "style": {
+        "color": "#81A1C1"
+      }
+    }
+  },
+  "text": {
+    "color": "#f8f8f2",
+    "background": "none",
+    "fontFamily": "\"Fira Code\", Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace"
+  }
+}

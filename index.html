@@ -1,0 +1,67 @@
+<html>
+<head>
+  <style>
+    body {
+      margin: 0;
+    }
+    canvas {
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      pointer-events: none;
+    }
+    .code {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      font: 20px monospace;
+      line-height: 24px;
+      padding: 0;
+      margin: 0;
+      color: rgba(255, 0, 0, 0.1);
+      caret-color: black;
+      white-space: pre;
+    }
+  </style>
+</head>
+<body>
+    <textarea class="code" contenteditable="true">
+      import refractor from 'refractor/core';
+      import { refractorCanvas } from './src/refractor-canvas';
+      import theme from './themes/prism-vs.json';
+      
+      async function main() {
+          const area = document.querySelector('.code');
+      
+          const syntax = await import('refractor/lang/typescript');
+          refractor.register(syntax.default);
+      
+          const width = document.body.clientWidth;
+          const height = document.body.clientHeight;
+      
+          const canvas = document.createElement('canvas');
+          canvas.style.width = width + "px";
+          canvas.style.height = height + "px";
+          canvas.width = Math.floor(width * devicePixelRatio);
+          canvas.height = Math.floor(height * devicePixelRatio);
+      
+          const context = canvas.getContext('2d');
+          context.scale(devicePixelRatio, devicePixelRatio);
+      
+          const tokens = refractor.highlight(area.textContent, 'ts');
+          refractorCanvas(tokens, { context, theme });
+      
+          document.body.append(canvas);
+      
+          area.addEventListener('input', e => {
+              const target = e.target as HTMLElement;
+              const textContent = target.innerHTML.split('<br>').join('\n').split('&nbsp;').join('');
+              context.clearRect(0, 0, canvas.width, canvas.height);
+              refractorCanvas(refractor.highlight(textContent, 'ts'), { context, theme });
+          });
+      }
+      
+      document.addEventListener("DOMContentLoaded", main);</textarea>
+  <script src="./index.ts"></script>
+</body>
+</html>

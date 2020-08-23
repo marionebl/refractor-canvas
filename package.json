@@ -1,0 +1,23 @@
+{
+  "name": "refractor-canvas",
+  "version": "1.0.0",
+  "main": "lib/refractor-canvas.js",
+  "author": "Mario Nebl <hell@mario-nebl.de>",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "browserslist": [
+    "last 1 Chrome version"
+  ],
+  "devDependencies": {
+    "@types/refractor": "^2.8.0",
+    "css": "^3.0.0",
+    "parcel-bundler": "^1.12.4",
+    "prism-themes": "^1.4.0",
+    "prismjs": "^1.21.0",
+    "refractor": "^3.1.0",
+    "scalpel": "^3.0.0",
+    "typescript": "^3.9.7"
+  }
+}

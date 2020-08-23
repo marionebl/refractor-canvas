@@ -1,0 +1,157 @@
+{
+  "tokens": {
+    "comment": {
+      "color": "#808080"
+    },
+    "prolog": {
+      "color": "#808080"
+    },
+    "cdata": {
+      "color": "#808080"
+    },
+    "delimiter": {
+      "color": "#cc7832"
+    },
+    "boolean": {
+      "color": "#cc7832"
+    },
+    "keyword": {
+      "color": "#cc7832"
+    },
+    "selector": {
+      "color": "#cc7832"
+    },
+    "important": {
+      "color": "#cc7832"
+    },
+    "atrule": {
+      "color": "#cc7832"
+    },
+    "operator": {
+      "color": "#a9b7c6"
+    },
+    "punctuation": {
+      "color": "#a9b7c6"
+    },
+    "attr-name": {
+      "color": "#a9b7c6"
+    },
+    "tag": {
+      "color": "#e8bf6a"
+    },
+    "doctype": {
+      "color": "#e8bf6a"
+    },
+    "builtin": {
+      "color": "#e8bf6a"
+    },
+    "entity": {
+      "color": "#6897bb"
+    },
+    "number": {
+      "color": "#6897bb"
+    },
+    "symbol": {
+      "color": "#6897bb"
+    },
+    "property": {
+      "color": "#9876aa"
+    },
+    "constant": {
+      "color": "#9876aa"
+    },
+    "variable": {
+      "color": "#9876aa"
+    },
+    "string": {
+      "color": "#6a8759"
+    },
+    "char": {
+      "color": "#6a8759"
+    },
+    "attr-value": {
+      "color": "#a9b7c6"
+    },
+    "url": {
+      "color": "#287bde",
+      "textDecoration": "underline"
+    },
+    "function": {
+      "color": "#ffc66d"
+    },
+    "regex": {
+      "background": "#364135"
+    },
+    "bold": {
+      "fontWeight": "bold"
+    },
+    "italic": {
+      "fontStyle": "italic"
+    },
+    "inserted": {
+      "background": "#294436"
+    },
+    "deleted": {
+      "background": "#484a4a"
+    }
+  },
+  "overrides": {
+    "property": {
+      "overrides": [
+        {
+          "type": "language",
+          "value": "css"
+        },
+        {
+          "type": "token",
+          "value": "property"
+        },
+        {
+          "type": "token",
+          "value": "punctuation"
+        }
+      ],
+      "style": {
+        "color": "#a9b7c6"
+      }
+    },
+    "id": {
+      "overrides": [
+        {
+          "type": "language",
+          "value": "css"
+        },
+        {
+          "type": "token",
+          "value": "id"
+        }
+      ],
+      "style": {
+        "color": "#ffc66d"
+      }
+    },
+    "selector": {
+      "overrides": [
+        {
+          "type": "language",
+          "value": "css"
+        },
+        {
+          "type": "token",
+          "value": "selector"
+        },
+        {
+          "type": "token",
+          "value": "pseudo-element"
+        }
+      ],
+      "style": {
+        "color": "#ffc66d"
+      }
+    }
+  },
+  "text": {
+    "color": "#a9b7c6",
+    "fontFamily": "Consolas, Monaco, 'Andale Mono', monospace"
+  }
+}

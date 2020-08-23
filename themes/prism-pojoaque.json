@@ -1,0 +1,127 @@
+{
+  "tokens": {
+    "namespace": {
+      "opacity": ".7"
+    },
+    "comment": {
+      "color": "#586e75",
+      "fontStyle": "italic"
+    },
+    "prolog": {
+      "color": "#586e75",
+      "fontStyle": "italic"
+    },
+    "doctype": {
+      "color": "#586e75",
+      "fontStyle": "italic"
+    },
+    "cdata": {
+      "color": "#586e75",
+      "fontStyle": "italic"
+    },
+    "number": {
+      "color": "#b89859"
+    },
+    "string": {
+      "color": "#468966"
+    },
+    "char": {
+      "color": "#468966"
+    },
+    "builtin": {
+      "color": "#468966"
+    },
+    "inserted": {
+      "color": "#468966"
+    },
+    "attr-name": {
+      "color": "#b89859"
+    },
+    "operator": {
+      "color": "#dccf8f"
+    },
+    "entity": {},
+    "url": {
+      "color": "#dccf8f"
+    },
+    "selector": {
+      "color": "#859900"
+    },
+    "regex": {
+      "color": "#859900"
+    },
+    "atrule": {
+      "color": "#cb4b16"
+    },
+    "keyword": {
+      "color": "#cb4b16"
+    },
+    "attr-value": {
+      "color": "#468966"
+    },
+    "function": {
+      "color": "#b58900"
+    },
+    "variable": {
+      "color": "#b58900"
+    },
+    "placeholder": {
+      "color": "#b58900"
+    },
+    "property": {
+      "color": "#b89859"
+    },
+    "tag": {
+      "color": "#ffb03b"
+    },
+    "boolean": {
+      "color": "#b89859"
+    },
+    "constant": {
+      "color": "#b89859"
+    },
+    "symbol": {
+      "color": "#b89859"
+    },
+    "important": {
+      "color": "#dc322f"
+    },
+    "statement": {
+      "color": "#dc322f"
+    },
+    "deleted": {
+      "color": "#dc322f"
+    },
+    "punctuation": {
+      "color": "#dccf8f"
+    },
+    "bold": {
+      "fontWeight": "bold"
+    },
+    "italic": {
+      "fontStyle": "italic"
+    }
+  },
+  "overrides": {
+    "string": {
+      "overrides": [
+        {
+          "type": "language",
+          "value": "css"
+        },
+        {
+          "type": "token",
+          "value": "string"
+        }
+      ],
+      "style": {
+        "color": "#dccf8f"
+      }
+    }
+  },
+  "text": {
+    "fontFamily": "Menlo, Monaco, \"Courier New\", monospace",
+    "color": "#dccf8f",
+    "textShadow": "0"
+  }
+}

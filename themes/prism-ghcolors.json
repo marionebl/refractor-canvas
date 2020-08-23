@@ -1,0 +1,146 @@
+{
+  "tokens": {
+    "comment": {
+      "color": "#999988",
+      "fontStyle": "italic"
+    },
+    "prolog": {
+      "color": "#999988",
+      "fontStyle": "italic"
+    },
+    "doctype": {
+      "color": "#999988",
+      "fontStyle": "italic"
+    },
+    "cdata": {
+      "color": "#999988",
+      "fontStyle": "italic"
+    },
+    "namespace": {
+      "opacity": ".7"
+    },
+    "string": {
+      "color": "#e3116c"
+    },
+    "attr-value": {
+      "color": "#e3116c"
+    },
+    "punctuation": {
+      "color": "#393A34"
+    },
+    "operator": {
+      "color": "#393A34"
+    },
+    "entity": {
+      "color": "#36acaa"
+    },
+    "url": {
+      "color": "#36acaa"
+    },
+    "symbol": {
+      "color": "#36acaa"
+    },
+    "number": {
+      "color": "#36acaa"
+    },
+    "boolean": {
+      "color": "#36acaa"
+    },
+    "variable": {
+      "color": "#36acaa"
+    },
+    "constant": {
+      "color": "#36acaa"
+    },
+    "property": {
+      "color": "#36acaa"
+    },
+    "regex": {
+      "color": "#36acaa"
+    },
+    "inserted": {
+      "color": "#36acaa"
+    },
+    "atrule": {
+      "color": "#00a4db"
+    },
+    "keyword": {
+      "color": "#00a4db"
+    },
+    "attr-name": {
+      "color": "#00a4db"
+    },
+    "function": {
+      "fontWeight": "bold"
+    },
+    "deleted": {
+      "color": "#9a050f"
+    },
+    "tag": {
+      "color": "#00009f"
+    },
+    "selector": {
+      "color": "#00009f"
+    },
+    "important": {
+      "fontWeight": "bold"
+    },
+    "bold": {
+      "fontWeight": "bold"
+    },
+    "italic": {
+      "fontStyle": "italic"
+    }
+  },
+  "overrides": {
+    "selector": {
+      "overrides": [
+        {
+          "type": "language",
+          "value": "autohotkey"
+        },
+        {
+          "type": "token",
+          "value": "selector"
+        }
+      ],
+      "style": {
+        "color": "#00a4db"
+      }
+    },
+    "tag": {
+      "overrides": [
+        {
+          "type": "language",
+          "value": "autohotkey"
+        },
+        {
+          "type": "token",
+          "value": "tag"
+        }
+      ],
+      "style": {
+        "color": "#9a050f"
+      }
+    },
+    "keyword": {
+      "overrides": [
+        {
+          "type": "language",
+          "value": "autohotkey"
+        },
+        {
+          "type": "token",
+          "value": "keyword"
+        }
+      ],
+      "style": {
+        "color": "#00009f"
+      }
+    }
+  },
+  "text": {
+    "color": "#393A34",
+    "fontFamily": "\"Consolas\", \"Bitstream Vera Sans Mono\", \"Courier New\", Courier, monospace"
+  }
+}
