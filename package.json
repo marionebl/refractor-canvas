@@ -1,6 +1,6 @@
 {
   "name": "refractor-canvas",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/refractor-canvas.js",
   "types": "lib/refractor-canvas.d.ts",
   "author": "Mario Nebl <hell@mario-nebl.de>",
