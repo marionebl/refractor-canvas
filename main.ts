@@ -3,13 +3,13 @@ import { refractorCanvas } from "./src/refractor-canvas";
 import theme from "./themes/prism-vsc-dark-plus.json";
 
 async function main() {
-  const fullTheme = {...theme, fontSize: 20, lineHeight: 30 };
+  const fullTheme = { ...theme, fontSize: 20, lineHeight: 30 };
 
   const area = document.querySelector<HTMLTextAreaElement>(".code");
-  area.style.font = theme.text.fontFamily;
-  area.style.background = 'black';
-  area.style.fontSize = fullTheme.fontSize + 'px';
-  area.style.lineHeight = fullTheme.lineHeight + 'px';
+  area.style.background = "black";
+  area.style.fontFamily = theme.text.fontFamily;
+  area.style.fontSize = fullTheme.fontSize + "px";
+  area.style.lineHeight = fullTheme.lineHeight + "px";
   area.style.caretColor = theme.text.color;
 
   const syntax = await import("refractor/lang/typescript");
@@ -28,13 +28,23 @@ async function main() {
   context.scale(devicePixelRatio, devicePixelRatio);
 
   const tokens = refractor.highlight(area.value, "ts");
-  refractorCanvas(tokens, { context, theme: fullTheme });
+  refractorCanvas(tokens, {
+    context,
+    theme: fullTheme,
+    width: canvas.width,
+    height: canvas.height,
+  });
 
   document.body.append(canvas);
 
   area.addEventListener("input", () => {
     context.clearRect(0, 0, canvas.width, canvas.height);
-    refractorCanvas(refractor.highlight(area.value, "ts"), { context, theme: fullTheme });
+    refractorCanvas(refractor.highlight(area.value, "ts"), {
+      context,
+      theme: fullTheme,
+      width: canvas.width,
+      height: canvas.height,
+    });
   });
 }
 

@@ -9,10 +9,12 @@ export function refractorCanvas(
   }: {
     context: CanvasRenderingContext2D | OffscreenCanvasRenderingContext2D;
     theme: RefractorTheme;
+    width: number;
+    height: number;
   }
 ) {
   context.font = `${theme.fontSize}px ` + theme.text.fontFamily;
-  context.fillStyle = theme.text.color;
+  context.fillStyle = 'red';
   context.textBaseline = "middle";
 
   tokens.reduce(chunk, []).reduce<Options>(render, {
@@ -57,7 +59,7 @@ function render(options: Options, token: RefractorNode) {
     options.context.fillText(
       token.value,
       options.char * options.charWidth,
-      options.line * options.lineHeight + options.lineHeight / 2
+      Math.ceil(options.line * options.lineHeight + options.lineHeight / 2) + 1
     );
 
     if (token.value !== "\n") {
